@@ -115,7 +115,15 @@ export default function UpcomingEventsSection() {
               </div>
             </motion.div>
           ))}
+
         </motion.div>
+
+                {/* View More Button */}
+        <div className="text-center mt-8">
+          <button className="px-6 py-3 bg-white text-orange-500 border-2 border-orange-500 rounded-md  cursor-pointer hover:text-orange-600 hover:border-orange-600 transition-colors">
+           View All
+          </button>
+        </div>
       </div>
     </section>
   );
