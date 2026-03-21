@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { Calendar, MapPin, ArrowRight } from "lucide-react";
+import { Calendar, ChevronRight, ArrowRight } from "lucide-react";
 
 const events = [
   {
@@ -109,7 +109,7 @@ export default function UpcomingEventsSection() {
 
                 <div className="flex items-center justify-between pt-4 border-t border-gray-50">
                    <button className="text-orange-600 font-semibold cursor-pointer text-sm flex items-center gap-1 hover:gap-2 transition-all">
-                     Read More <ArrowRight size={16} />
+                     Read More <ChevronRight size={16} />
                    </button>
                 </div>
               </div>
