@@ -48,7 +48,7 @@ const itemVariants = {
 export default function UpcomingEventsSection() {
   return (
     <section className="py-20 bg-white">
-      <div className="container mx-auto px-4 max-w-6xl">
+      <div className="container mx-auto px-4 max-w-7xl">
         
         {/* Section Header */}
         <motion.div 

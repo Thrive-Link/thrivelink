@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/pages/HeroSection";
+import MissionSection from "@/components/pages/MissionSection";
 import TestimonialSection from "@/components/pages/TestimonialSection";
 import UpcomingEventsSection from "@/components/pages/UpcomingEventsSection";
 import Link from "next/link";
@@ -26,6 +27,9 @@ export default function Home() {
           </Link>
         </div>
       </div>
+
+      {/* Mission Section */}
+      <MissionSection />
 
       {/* Testimonials Section */}
       <TestimonialSection />
