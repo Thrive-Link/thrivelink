@@ -14,7 +14,7 @@ type NavLink = {
   dropdown?: { name: string; href: string }[];
 };
 
-const navLinks = [
+const navLinks: NavLink[] = [
   { name: "About", href: "/about" },
   {
     name: "Initiatives", // Captures Programs, Events, Resources
